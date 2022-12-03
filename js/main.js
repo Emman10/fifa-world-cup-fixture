@@ -137,7 +137,7 @@ while (grupo != "X" && grupo != "x"){
     }
 }
 
-alert("Gracias por usar la app! \nLa próxima quizas agreguemos a Chile");
+alert("Gracias por usar la app!");
 
 function equipos(){
     alert("Grupo " + grupo.toUpperCase() + "\n \n" + equipo1 + "\n" + equipo2 + "\n" + equipo3 + "\n" + equipo4 );
