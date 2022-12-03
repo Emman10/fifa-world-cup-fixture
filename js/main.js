@@ -7,17 +7,21 @@ let puntosEquipo2 = 0;
 let puntosEquipo3 = 0;
 let puntosEquipo4 = 0;
 
-while (grupo != "X" && grupo != "x"){
-    
+function puntos(){
     puntosEquipo1 = 0;
     puntosEquipo2 = 0;
     puntosEquipo3 = 0;
     puntosEquipo4 = 0;
+}
 
+while (grupo != "X" && grupo != "x"){
+    
     switch (grupo) {
 
         case "A" && "a":
-            
+        
+            puntos()
+
             equipo1= "Qatar";
             equipo2= "Ecuador";
             equipo3= "Senegal";
@@ -30,6 +34,8 @@ while (grupo != "X" && grupo != "x"){
             break;
         case "B" && "b":
             
+            puntos()
+
             equipo1= "Inglaterra";
             equipo2= "Iran";
             equipo3= "Estados Unidos";
@@ -41,6 +47,8 @@ while (grupo != "X" && grupo != "x"){
             
             break;
         case "C" && "c":
+
+            puntos()
 
             equipo1= "Argentina";
             equipo2= "Arabia Saudita";
@@ -54,6 +62,8 @@ while (grupo != "X" && grupo != "x"){
             break;
         case "D" && "d":
 
+            puntos()
+
             equipo1= "Dinamarca";
             equipo2= "Túnez";
             equipo3= "Francia";
@@ -65,6 +75,8 @@ while (grupo != "X" && grupo != "x"){
 
             break;
         case "E" && "e":
+
+            puntos()
 
             equipo1= "Alemania";
             equipo2= "Japón";
@@ -78,6 +90,8 @@ while (grupo != "X" && grupo != "x"){
             break;
         case "F" && "f":
 
+            puntos()
+
             equipo1= "Marruecos";
             equipo2= "Croacia";
             equipo3= "Bélgica";
@@ -90,6 +104,8 @@ while (grupo != "X" && grupo != "x"){
             break;
         case "G" && "g":
 
+            puntos()
+
             equipo1= "Suiza";
             equipo2= "Camerún";
             equipo3= "Brasil";
@@ -101,6 +117,8 @@ while (grupo != "X" && grupo != "x"){
 
             break;
         case "H" && "h":
+
+            puntos()
 
             equipo1= "Uruguay";
             equipo2= "Rep. de Corea";
@@ -194,7 +212,6 @@ function funcionFixture(var1,var2,var3,var4){
         funcionEquipo3(resultEquipo3, resultEquipo2)
 
 }
-
 function funcionEquipo1(var1,var2){
     if (var1 > var2){
         puntosEquipo1 = puntosEquipo1 + 3}
