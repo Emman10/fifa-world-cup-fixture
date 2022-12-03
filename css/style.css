@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "GraphikArabicMedium";
+    src: url(../assets/fonts/GraphikArabicMedium.otf); }
+    @font-face {
+        font-family: "Qatar2022Arabic-Medium";
+        src: url(../assets/fonts/Qatar2022Arabic-Medium.otf); }  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+.titulo{
+    display: flex;
+    flex-direction: column;
+    font-family: GraphikArabicMedium; 
+    text-align: center;
+    background-color: #8d1c3d;
+    color: aliceblue;
+    align-items: center;
+    margin: 10%;
+    margin-top: 20px;
+    padding: 20px;
+}
+h1{
+}
+h2{
+    font-family: Qatar2022Arabic-Medium;
+}
