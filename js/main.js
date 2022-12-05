@@ -133,26 +133,29 @@ while (grupo != "X" && grupo != "x"){
         default:
         
             alert("El grupo no existe")
-        
+            break;
     }
+    do{
         grupo= prompt("Quieres ver otro grupo? \nS  o  N")
 
     switch(grupo){
         case "S" && "s":
             
             grupo= prompt("Elegí un grupo entre A-H \no presioná X para salir");
-            
+            condicion= true;
+
         break;
         case "N" && "n":
             
             grupo= "X";
-            
+            condicion= false;
+
         break;
         default:
             
             alert("Entrada incorrecta")
-            grupo= prompt("Quieres ver otro grupo? \nS  o  N");
-    }
+            break;
+    }}while(condicion=false)
 }
 
 alert("Gracias por usar la app!");
