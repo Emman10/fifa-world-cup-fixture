@@ -18,7 +18,7 @@ while (grupo != "X" && grupo != "x"){
     
     switch (grupo) {
 
-        case "A" && "a":
+        case "A" || "a":
         
             puntos()
 
@@ -31,8 +31,7 @@ while (grupo != "X" && grupo != "x"){
             funcionFixture(equipo1,equipo2,equipo3,equipo4)
             puntajes()
             
-            break;
-        case "B" && "b":
+            break|| "b":
             
             puntos()
 
@@ -46,7 +45,7 @@ while (grupo != "X" && grupo != "x"){
             puntajes()
             
             break;
-        case "C" && "c":
+        case "C" || "c":
 
             puntos()
 
@@ -60,7 +59,7 @@ while (grupo != "X" && grupo != "x"){
             puntajes()
 
             break;
-        case "D" && "d":
+        case "D" || "d":
 
             puntos()
 
@@ -74,7 +73,7 @@ while (grupo != "X" && grupo != "x"){
             puntajes() 
 
             break;
-        case "E" && "e":
+        case "E" || "e":
 
             puntos()
 
@@ -88,7 +87,7 @@ while (grupo != "X" && grupo != "x"){
             puntajes() 
 
             break;
-        case "F" && "f":
+        case "F" || "f":
 
             puntos()
 
@@ -102,7 +101,7 @@ while (grupo != "X" && grupo != "x"){
             puntajes() 
 
             break;
-        case "G" && "g":
+        case "G" || "g":
 
             puntos()
 
@@ -116,7 +115,7 @@ while (grupo != "X" && grupo != "x"){
             puntajes()
 
             break;
-        case "H" && "h":
+        case "H" || "h":
 
             puntos()
 
@@ -139,13 +138,13 @@ while (grupo != "X" && grupo != "x"){
         grupo= prompt("Quieres ver otro grupo? \nS  o  N")
 
     switch(grupo){
-        case "S" && "s":
+        case "S" || "s":
             
             grupo= prompt("Elegí un grupo entre A-H \no presioná X para salir");
             condicion= true;
 
         break;
-        case "N" && "n":
+        case "N" || "n":
             
             grupo= "X";
             condicion= false;
