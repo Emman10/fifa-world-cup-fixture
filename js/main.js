@@ -1,4 +1,4 @@
-alert("Bienvenido al fixture de la \nCopa Mundial FIFA \nQatar 2022")
+alert("Bienvenido al fixture de la \nCopa Mundial FIFA \nQatar 2022");
 
 let grupo = prompt("Elegí un grupo entre A-H \no presioná X para salir");
 
@@ -28,114 +28,115 @@ while (grupo != "X" && grupo != "x"){
             equipo4= "Países Bajos";
 
             equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes()
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes();
             
-            break|| "b":
+            break;
+        case "B" || "b":
             
-            puntos()
+            puntos();
 
             equipo1= "Inglaterra";
             equipo2= "Iran";
             equipo3= "Estados Unidos";
             equipo4= "Gales";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes()
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes();
             
             break;
         case "C" || "c":
 
-            puntos()
+            puntos();
 
             equipo1= "Argentina";
             equipo2= "Arabia Saudita";
             equipo3= "México";
             equipo4= "Polonia";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes()
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes();
 
             break;
         case "D" || "d":
 
-            puntos()
+            puntos();
 
             equipo1= "Dinamarca";
             equipo2= "Túnez";
             equipo3= "Francia";
             equipo4= "Australia";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes() 
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes() ;
 
             break;
         case "E" || "e":
 
-            puntos()
+            puntos();
 
             equipo1= "Alemania";
             equipo2= "Japón";
             equipo3= "España";
             equipo4= "Costa Rica";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes() 
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes() ;
 
             break;
         case "F" || "f":
 
-            puntos()
+            puntos();
 
             equipo1= "Marruecos";
             equipo2= "Croacia";
             equipo3= "Bélgica";
             equipo4= "Canadá";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes() 
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes() ;
 
             break;
         case "G" || "g":
 
-            puntos()
+            puntos();
 
             equipo1= "Suiza";
             equipo2= "Camerún";
             equipo3= "Brasil";
             equipo4= "Serbia";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes()
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes();
 
             break;
         case "H" || "h":
 
-            puntos()
+            puntos();
 
             equipo1= "Uruguay";
             equipo2= "Rep. de Corea";
             equipo3= "Portugal";
             equipo4= "Ghana";
 
-            equipos()
-            funcionFixture(equipo1,equipo2,equipo3,equipo4)
-            puntajes()
+            equipos();
+            funcionFixture(equipo1,equipo2,equipo3,equipo4);
+            puntajes();
 
             break;
         default:
         
-            alert("El grupo no existe")
+            alert("El grupo no existe");
             break;
     }
     do{
-        grupo= prompt("Quieres ver otro grupo? \nS  o  N")
+        grupo= prompt("Quieres ver otro grupo? \nS  o  N");
 
     switch(grupo){
         case "S" || "s":
@@ -152,7 +153,7 @@ while (grupo != "X" && grupo != "x"){
         break;
         default:
             
-            alert("Entrada incorrecta")
+            alert("Entrada incorrecta");
             break;
     }}while(condicion=false)
 }
