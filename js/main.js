@@ -5,19 +5,19 @@ const pais=[
     {id: 4, nombre: "Paices Bajos", grup: "A", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
 
     {id: 5, nombre: "Inglaterra", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 6, nombre: "Iran", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 6, nombre: "Irán", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 7, nombre: "Estados Unidos", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 8, nombre: "Gales", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
 
     {id: 9, nombre: "Argentina", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 10, nombre: "Arabia Saudita", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 11, nombre: "Mexico", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 11, nombre: "México", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 12, nombre: "Polonia", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
 
     {id: 13, nombre: "Francia", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 14, nombre: "Australia", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 15, nombre: "Dinamarca", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 16, nombre: "Tunez", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 16, nombre: "Túnez", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
 
     {id: 17, nombre: "España", grup: "E", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 18, nombre: "Costa Rica", grup: "E", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
@@ -32,12 +32,12 @@ const pais=[
     {id: 25, nombre: "Brasil", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 26, nombre: "Serbia", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 27, nombre: "Suiza", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 28, nombre: "Camerun", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 28, nombre: "Camerún", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
 
     {id: 29, nombre: "Portugal", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 30, nombre: "Ghana", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     {id: 31, nombre: "Uruguay", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 32, nombre: "Republica de Corea", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 32, nombre: "República de Corea", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
     ];
 
 alert("Bienvenido al fixture de la \nCopa Mundial FIFA \nQatar 2022");
