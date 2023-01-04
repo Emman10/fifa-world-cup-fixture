@@ -1,174 +1,209 @@
 const pais=[
-    {id: 1, nombre: "Qatar", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 2, nombre: "Ecuador", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 3, nombre: "Senegal", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 4, nombre: "Paices Bajos", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 5, nombre: "Inglaterra", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 6, nombre: "Iran", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 7, nombre: "Estados Unidos", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 8, nombre: "Gales", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 9, nombre: "Argentina", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 10, nombre: "Arabia Saudita", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 11, nombre: "Mexico", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 12, nombre: "Polonia", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 13, nombre: "Francia", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 14, nombre: "Australia", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 15, nombre: "Dinamarca", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 16, nombre: "Tunez", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 17, nombre: "España", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 18, nombre: "Costa Rica", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 19, nombre: "Alemania", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 20, nombre: "Japón", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 21, nombre: "Bélgica", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 22, nombre: "Canadá", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 23, nombre: "Marruecos", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 24, nombre: "Croacia", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 25, nombre: "Brasil", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 26, nombre: "Serbia", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 27, nombre: "Suiza", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 28, nombre: "Camerun", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 29, nombre: "Portugal", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 30, nombre: "Ghana", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 31, nombre: "Uruguay", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    {id: 32, nombre: "Republica de Corea", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
-    ]
+    {id: 1, nombre: "Qatar", grup: "A", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 2, nombre: "Ecuador", grup: "A", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 3, nombre: "Senegal", grup: "A", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 4, nombre: "Paices Bajos", grup: "A", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 5, nombre: "Inglaterra", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 6, nombre: "Iran", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 7, nombre: "Estados Unidos", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 8, nombre: "Gales", grup: "B", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 9, nombre: "Argentina", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 10, nombre: "Arabia Saudita", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 11, nombre: "Mexico", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 12, nombre: "Polonia", grup: "C", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 13, nombre: "Francia", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 14, nombre: "Australia", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 15, nombre: "Dinamarca", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 16, nombre: "Tunez", grup: "D", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 17, nombre: "España", grup: "E", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 18, nombre: "Costa Rica", grup: "E", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 19, nombre: "Alemania", grup: "E", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 20, nombre: "Japón", grup: "E", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 21, nombre: "Bélgica", grup: "F", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 22, nombre: "Canadá", grup: "F", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 23, nombre: "Marruecos", grup: "F", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 24, nombre: "Croacia", grup: "F", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 25, nombre: "Brasil", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 26, nombre: "Serbia", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 27, nombre: "Suiza", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 28, nombre: "Camerun", grup: "G", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+
+    {id: 29, nombre: "Portugal", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 30, nombre: "Ghana", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 31, nombre: "Uruguay", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    {id: 32, nombre: "Republica de Corea", grup: "H", puntos: 0, pJ: 0, pG: 0, pE: 0, pP: 0},
+    ];
+
 alert("Bienvenido al fixture de la \nCopa Mundial FIFA \nQatar 2022");
 
-let grupo = (prompt("Elegí un grupo entre A-H \no presioná X para salir").toUpperCase());
+let primerSeleccion = (prompt("Que quieres hacer?\nG - Ver grupos\nS - Buscar una seleccion\nX - Salir").toUpperCase());
 
-let puntosEquipo1 = 0;
-let puntosEquipo2 = 0;
-let puntosEquipo3 = 0;
-let puntosEquipo4 = 0;
-
-function puntos(){
-    puntosEquipo1 = 0;
-    puntosEquipo2 = 0;
-    puntosEquipo3 = 0;
-    puntosEquipo4 = 0;
-}
-
-while (grupo != "X" && grupo != "x"){
+while (primerSeleccion != "X" && primerSeleccion != "x"){
     
-    switch (grupo) {
+    switch (primerSeleccion) {
 
-        case "A":
-        
-            puntos()
-
-            equipo1= pais[0].nombre;
-            equipo2= pais[1].nombre;
-            equipo3= pais[2].nombre;
-            equipo4= pais[3].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes();
-            
-            break;
-        case "B":
-            
-            puntos();
-
-            equipo1= pais[4].nombre;
-            equipo2= pais[5].nombre;
-            equipo3= pais[6].nombre;
-            equipo4= pais[7].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes();
-            
-            break;
-        case "C":
-
-            puntos();
-
-            equipo1= pais[8].nombre;
-            equipo2= pais[9].nombre;
-            equipo3= pais[10].nombre;
-            equipo4= pais[11].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes();
-
-            break;
-        case "D":
-
-            puntos();
-
-            equipo1= pais[12].nombre;
-            equipo2= pais[13].nombre;
-            equipo3= pais[14].nombre;
-            equipo4= pais[15].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes() ;
-
-            break;
-        case "E":
-
-            puntos();
-
-            equipo1= pais[16].nombre;
-            equipo2= pais[17].nombre;
-            equipo3= pais[18].nombre;
-            equipo4= pais[19].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes() ;
-
-            break;
-        case "F":
-
-            puntos();
-
-            equipo1= pais[20].nombre;
-            equipo2= pais[21].nombre;
-            equipo3= pais[22].nombre;
-            equipo4= pais[23].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes() ;
-
-            break;
         case "G":
 
-            puntos();
+            let grupo = (prompt("Elegí un grupo entre A-H \no presioná X para salir").toUpperCase());
 
-            equipo1= pais[24].nombre;
-            equipo2= pais[25].nombre;
-            equipo3= pais[26].nombre;
-            equipo4= pais[27].nombre;
+            let puntosEquipo1 = 0;
+            let puntosEquipo2 = 0;
+            let puntosEquipo3 = 0;
+            let puntosEquipo4 = 0;
 
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes();
+            function puntos(){
+                puntosEquipo1 = 0;
+                puntosEquipo2 = 0;
+                puntosEquipo3 = 0;
+                puntosEquipo4 = 0;
+            }
 
+            while (grupo != "X" && grupo != "x"){
+                
+                switch (grupo) {
+
+                    case "A":
+                    
+                        puntos()
+
+                        equipo1= pais[0].nombre;
+                        equipo2= pais[1].nombre;
+                        equipo3= pais[2].nombre;
+                        equipo4= pais[3].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes();
+                        
+                        break;
+                    case "B":
+                        
+                        puntos();
+
+                        equipo1= pais[4].nombre;
+                        equipo2= pais[5].nombre;
+                        equipo3= pais[6].nombre;
+                        equipo4= pais[7].nombre;
+
+                        equipos(grupo);
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes();
+                        
+                        break;
+                    case "C":
+
+                        puntos();
+
+                        equipo1= pais[8].nombre;
+                        equipo2= pais[9].nombre;
+                        equipo3= pais[10].nombre;
+                        equipo4= pais[11].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes();
+
+                        break;
+                    case "D":
+
+                        puntos();
+
+                        equipo1= pais[12].nombre;
+                        equipo2= pais[13].nombre;
+                        equipo3= pais[14].nombre;
+                        equipo4= pais[15].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes() ;
+
+                        break;
+                    case "E":
+
+                        puntos();
+
+                        equipo1= pais[16].nombre;
+                        equipo2= pais[17].nombre;
+                        equipo3= pais[18].nombre;
+                        equipo4= pais[19].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes() ;
+
+                        break;
+                    case "F":
+
+                        puntos();
+
+                        equipo1= pais[20].nombre;
+                        equipo2= pais[21].nombre;
+                        equipo3= pais[22].nombre;
+                        equipo4= pais[23].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes() ;
+
+                        break;
+                    case "G":
+
+                        puntos();
+
+                        equipo1= pais[24].nombre;
+                        equipo2= pais[25].nombre;
+                        equipo3= pais[26].nombre;
+                        equipo4= pais[27].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes();
+
+                        break;
+                    case "H":
+
+                        puntos();
+
+                        equipo1= pais[28].nombre;
+                        equipo2= pais[29].nombre;
+                        equipo3= pais[30].nombre;
+                        equipo4= pais[31].nombre;
+
+                        equipos();
+                        funcionFixture(equipo1,equipo2,equipo3,equipo4);
+                        puntajes();
+
+                        break;
+                    default:
+                    
+                        alert("El grupo no existe");
+                        break;
+                }
+
+                }
+
+        case "S":
+            
+            let equipoBuscado = prompt("Escribí el nombre de la seleccion que queres buscar\nCon la primer letra mayuscula y respetando acentos porfis :)");
+
+            let busquedaGrupo = [];
+            for (let i = 0; i < pais.length; i++){
+                if( pais[i].nombre === equipoBuscado){
+                    busquedaGrupo.push(pais[i].grup);
+                }
+            }
+            alert("La seleccion de " + equipoBuscado + "\npertenece al grupo " + busquedaGrupo);
             break;
-        case "H":
-
-            puntos();
-
-            equipo1= pais[28].nombre;
-            equipo2= pais[29].nombre;
-            equipo3= pais[30].nombre;
-            equipo4= pais[31].nombre;
-
-            equipos();
-            funcionFixture(equipo1,equipo2,equipo3,equipo4);
-            puntajes();
-
-            break;
-        default:
         
-            alert("El grupo no existe");
-            break;
-    }
+        default:
+            alert("Entrada incorrecta");
+            break;}
 
     do{
         grupo= (prompt("Quieres ver otro grupo? \nS  o  N").toUpperCase());
@@ -189,13 +224,13 @@ while (grupo != "X" && grupo != "x"){
         default:
             
             alert("Entrada incorrecta");
-    }}while(condicion=false)
-}
+            break;
+    }}while(condicion=false)}
 
 alert("Gracias por usar la app!");
 
-function equipos(){
-    alert("Grupo " + grupo.toUpperCase() + "\n \n" + equipo1 + "\n" + equipo2 + "\n" + equipo3 + "\n" + equipo4 );
+function equipos(grupo){
+    alert("Grupo " + grupo + "\n \n" + equipo1 + "\n" + equipo2 + "\n" + equipo3 + "\n" + equipo4 );
 }
 
 function funcionFixture(var1,var2,var3,var4){
